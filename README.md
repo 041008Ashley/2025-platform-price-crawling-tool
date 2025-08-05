@@ -1,8 +1,6 @@
 # 2025-platform-price-crawling-tool
 
 # 淘宝天猫商品信息爬取RPA机器人
-
-![RPA Automation](https://via.placeholder.com/800x400?text=RPA+Automation+Process)  
 *自动化商品信息爬取工具 - 为企业采购决策提供数据支持*
 
 ## 项目概述
