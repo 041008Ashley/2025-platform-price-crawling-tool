@@ -1,0 +1,15 @@
+def remove_spaces_and_newlines(input_string):
+    """安全删除字符串中的所有空格和换行符（处理None值）"""
+    if input_string is None:
+        return ""  # 如果输入是None，返回空字符串
+    
+    # 确保输入是字符串类型
+    if not isinstance(input_string, str):
+        try:
+            # 尝试转换为字符串
+            input_string = str(input_string)
+        except Exception:
+            return ""  # 转换失败时返回空字符串
+    
+    # 删除空格和换行符
+    return input_string.replace(' ', '').replace('\n', '').replace('\r', '')
